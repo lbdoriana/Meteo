@@ -1,0 +1,104 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+body{
+ background-image: url(belle-nuage-blanc-ciel-bleu_632498-1115.jpg);
+ background-size:cover;
+ background-repeat: no-repeat;
+ min-height:100vh;
+ font: size 16px;
+}
+h2{
+      font-family: 'Times New Roman', Times, serif;
+      color: blue;
+      font-weight: 800;
+      font-size: 40px;
+      text-align: center;
+}
+
+.container{
+ width:50%;
+ height: 600px;
+ margin: 0 auto;
+ padding:30px 20px;
+ border-radius:4px;
+ border: solid black 1px;
+ box-shadow: 0 0 8px rgb(red, green, blue);
+ text-align: center; 
+ justify-content: center;
+
+}
+@media screen and (max-width:1500px){
+      .container{
+            width:90%;
+            display:flex;
+      }
+      .weather-data{
+           min-width:90px;
+      }
+      input{
+            max-width:170%;
+      }
+      button{
+           max-width:50%;
+      }
+      .city{
+            font-size: 1.5em;
+      }
+}
+
+#search-button{
+ height: 50px;
+ width: 400px;
+ background-color: aqua;
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 1,5em;
+ margin-bottom: 20px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+.formulaire{
+background-image:url(belle-nuage-blanc-ciel-bleu_632498-1115.jpg) ;
+ width:600px;
+ height:70px;
+ font-family: 'Times New Roman', Times, serif;
+ color:#000;
+ font-weight: bold;
+ text-align: center;
+ font-size: 2.3px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+ .weather-data{
+  width: 600px;
+  height:500px;
+  font-size:20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color:black;
+  margin:0;
+  border: solid 1px black;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: red -5 10 -7;
+ }
+ input{
+      width:50%;
+      height: 50px;
+      background-color: aqua;
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+ }
+  .city{
+      font-size:40px;   
+      color:red 
+  }
+.temp{
+      font-size: 40px;
+      color: red;
+
+   }

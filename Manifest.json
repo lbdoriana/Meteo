@@ -1,0 +1,17 @@
+{
+ "short-name":"PWA",
+ "name":"Meteo ",
+ "icons":[
+  {
+   "src":"logo.png",
+   "sizes":"300x196",
+   "type":"image/png"
+  }
+ ],
+"start_url":"index.html",
+"id":"search-input",
+"background-color":"#000254b7",
+"display":"standalone",
+"scope":"/",
+"theme-color":"blue"
+}

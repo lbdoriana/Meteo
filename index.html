@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+  <!-- Lien  font-owesome pour avoir les icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <title>METEO</title>
+</head>
+<script src=script.js defer></script>
+
+<body>
+
+  <script>
+    if ("service-worker" in navigator) {
+      navigator.serviceworker.register("service-worker.js").then(function () {
+        console.log("Service-Worker est enregistré");
+      })
+    }
+  </script>
+
+  <h2>Météo actuelle</h2>
+  <div class="container">
+    <div class="weather-data">
+      <input type="text" id="search-input" placeholder="Entrez une ville ou un pays">
+      <button id="search-button">Rechercher</button>
+      <div class="city"></div>
+      <div class="description"> </div>
+      <div class="temp"></div>
+      <div class="humidity"> </div>
+      <div class="wind-speed"></div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
