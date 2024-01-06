@@ -12,10 +12,11 @@ body{
 }
 h2{
       font-family: 'Times New Roman', Times, serif;
-      color: blue;
+      color: white;
       font-weight: 800;
-      font-size: 40px;
+      font-size: 60px;
       text-align: center;
+      margin-top: 40px;
 }
 
 .container{
@@ -24,8 +25,7 @@ h2{
  margin: 0 auto;
  padding:30px 20px;
  border-radius:4px;
- border: solid black 1px;
- box-shadow: 0 0 8px rgb(red, green, blue);
+ box-shadow: 0 0 50px rgb(red, green, blue);
  text-align: center; 
  justify-content: center;
 
@@ -80,14 +80,17 @@ background-image:url(belle-nuage-blanc-ciel-bleu_632498-1115.jpg) ;
   font-weight: bold;
   color:black;
   margin:0;
-  border: solid 1px black;
   text-align: center;
   border-radius: 30px;
-  box-shadow: red -5 10 -7;
+  box-shadow: red -5 60px -7;
+ }
+ button{
+      font-size: 25px;
  }
  input{
       width:50%;
       height: 50px;
+      font-size: 20px;
       background-color: aqua;
       text-align: center;
       margin-bottom: 10px;
