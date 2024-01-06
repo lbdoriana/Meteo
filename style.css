@@ -3,8 +3,8 @@
  padding:0;
  box-sizing: border-box;
 }
-body{
- background-image: url(belle-nuage-blanc-ciel-bleu_632498-1115.jpg);
+body{ 
+ background-image: url(belle-nuage-blanc-ciel-bleu_632498-1115.jpg); 
  background-size:cover;
  background-repeat: no-repeat;
  min-height:100vh;
@@ -36,7 +36,7 @@ h2{
             display:flex;
       }
       .weather-data{
-           min-width:90px;
+           min-width:500px;
       }
       input{
             max-width:170%;
