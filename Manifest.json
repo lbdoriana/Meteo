@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
  "short-name":"PWA",
  "name":"Meteo ",
@@ -14,4 +15,22 @@
 "display":"standalone",
 "scope":"/",
 "theme-color":"blue"
+=======
+{
+ "short-name":"PWA",
+ "name":"Meteo ",
+ "icons":[
+  {
+   "src":"logo.png",
+   "sizes":"300x196",
+   "type":"image/png"
+  }
+ ],
+"start_url":"index.html",
+"id":"search-input",
+"background-color":"#000254b7",
+"display":"standalone",
+"scope":"/",
+"theme-color":"blue"
+>>>>>>> c79b94a2a580a2302c6a69fdd634bc0c37231726
 }
